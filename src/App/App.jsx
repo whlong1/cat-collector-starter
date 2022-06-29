@@ -14,17 +14,14 @@ import CatInBox from '../assets/cat-in-box.svg'
 import TeaCupCat from '../assets/teacup-cat.svg'
 import SkaterCat from '../assets/sk8r-boi-cat.svg'
 
+// Services
+import * as authService from '../services/authService'
+
 const catImages = [
   SkaterCat, CoolCat,
   NerdCat, HappyCat,
   CatInBox, TeaCupCat,
 ]
-
-// Services
-
-
-
-// ========
 
 function App() {
   const navigate = useNavigate()
